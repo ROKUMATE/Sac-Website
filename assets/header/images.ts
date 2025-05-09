@@ -7,5 +7,5 @@ export interface Logos {
 }
 
 export const logos: Logos[] = [
-    { name: "CollegeLogoLeft", src: CollegeLogoLeft },
+    // { name: "CollegeLogoLeft", src: CollegeLogoLeft },
 ];
