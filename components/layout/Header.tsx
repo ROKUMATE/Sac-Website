@@ -107,7 +107,7 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className="max-w-7xl mx-auto px-4">
-                            <div className="flex justify-between items-center">
+                            <div className="flex justify-end items-center">
                                 <div className="hidden md:flex space-x-1">
                                     <Link
                                         href="/"

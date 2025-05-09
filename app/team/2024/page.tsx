@@ -53,11 +53,11 @@ const TeamPage2024 = () => {
                     className="w-full"
                     onValueChange={setActiveTab}>
                     <div className="flex justify-center mb-8">
-                        <TabsList className="grid grid-cols-2 md:grid-cols-5 bg-gray-100">
+                        <TabsList className="grid grid-cols-5 md:grid-cols-5 bg-gray-100">
                             <TabsTrigger
                                 value="overall"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "overall"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -67,7 +67,7 @@ const TeamPage2024 = () => {
                             <TabsTrigger
                                 value="cultural"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "cultural"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -77,7 +77,7 @@ const TeamPage2024 = () => {
                             <TabsTrigger
                                 value="technical"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "technical"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -87,7 +87,7 @@ const TeamPage2024 = () => {
                             <TabsTrigger
                                 value="welfare"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "welfare"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -97,7 +97,7 @@ const TeamPage2024 = () => {
                             <TabsTrigger
                                 value="sports"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "sports"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -129,7 +129,16 @@ const TeamPage2024 = () => {
                                             {member.position}
                                         </p>
                                         <p className="text-gray-600 text-sm">
-                                            {member.batch}
+                                            <span className="text-gray-700 font-medium">
+                                                Batch:
+                                            </span>{" "}
+                                            {member.Batch}
+                                        </p>
+                                        <p className="text-gray-600 text-sm">
+                                            <span className="text-gray-700 font-medium">
+                                                PhoneNo:
+                                            </span>{" "}
+                                            {member.PhoneNo}
                                         </p>
                                     </div>
                                 </div>
@@ -138,7 +147,7 @@ const TeamPage2024 = () => {
                     </TabsContent>
 
                     <TabsContent value="cultural">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                             {culturalMembers.map((member) => (
                                 <div
                                     key={member.id}
@@ -159,7 +168,16 @@ const TeamPage2024 = () => {
                                             {member.position}
                                         </p>
                                         <p className="text-gray-600 text-sm">
-                                            {member.batch}
+                                            <span className="text-gray-700 font-medium">
+                                                Batch:
+                                            </span>{" "}
+                                            {member.Batch}
+                                        </p>
+                                        <p className="text-gray-600 text-sm">
+                                            <span className="text-gray-700 font-medium">
+                                                PhoneNo:
+                                            </span>{" "}
+                                            {member.PhoneNo}
                                         </p>
                                     </div>
                                 </div>
@@ -168,7 +186,7 @@ const TeamPage2024 = () => {
                     </TabsContent>
 
                     <TabsContent value="technical">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                             {technicalMembers.map((member) => (
                                 <div
                                     key={member.id}
@@ -189,7 +207,16 @@ const TeamPage2024 = () => {
                                             {member.position}
                                         </p>
                                         <p className="text-gray-600 text-sm">
-                                            {member.batch}
+                                            <span className="text-gray-700 font-medium">
+                                                Batch:
+                                            </span>{" "}
+                                            {member.Batch}
+                                        </p>
+                                        <p className="text-gray-600 text-sm">
+                                            <span className="text-gray-700 font-medium">
+                                                PhoneNo:
+                                            </span>{" "}
+                                            {member.PhoneNo}
                                         </p>
                                     </div>
                                 </div>
@@ -198,7 +225,7 @@ const TeamPage2024 = () => {
                     </TabsContent>
 
                     <TabsContent value="welfare">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                             {welfareMembers.map((member) => (
                                 <div
                                     key={member.id}
@@ -219,7 +246,16 @@ const TeamPage2024 = () => {
                                             {member.position}
                                         </p>
                                         <p className="text-gray-600 text-sm">
-                                            {member.batch}
+                                            <span className="text-gray-700 font-medium">
+                                                Batch:
+                                            </span>{" "}
+                                            {member.Batch}
+                                        </p>
+                                        <p className="text-gray-600 text-sm">
+                                            <span className="text-gray-700 font-medium">
+                                                PhoneNo:
+                                            </span>{" "}
+                                            {member.PhoneNo}
                                         </p>
                                     </div>
                                 </div>
@@ -228,7 +264,7 @@ const TeamPage2024 = () => {
                     </TabsContent>
 
                     <TabsContent value="sports">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                             {sportsMembers.map((member) => (
                                 <div
                                     key={member.id}
@@ -249,7 +285,16 @@ const TeamPage2024 = () => {
                                             {member.position}
                                         </p>
                                         <p className="text-gray-600 text-sm">
-                                            {member.batch}
+                                            <span className="text-gray-700 font-medium">
+                                                Batch:
+                                            </span>{" "}
+                                            {member.Batch}
+                                        </p>
+                                        <p className="text-gray-600 text-sm">
+                                            <span className="text-gray-700 font-medium">
+                                                PhoneNo:
+                                            </span>{" "}
+                                            {member.PhoneNo}
                                         </p>
                                     </div>
                                 </div>

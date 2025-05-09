@@ -2,39 +2,45 @@ export type Member = {
     id: number;
     name: string;
     position: string;
-    batch: string;
+    Batch: string;
+    PhoneNo?: string;
     committee?: string;
     photo: string;
 };
 
 export const overallMembers: Member[] = [
+    // ----- OVERALL -----
     {
         id: 1,
-        name: "Rahul Sharma",
+        name: "Samyak Choudhary",
         position: "President",
-        batch: "2022IMT025",
+        Batch: "2023IMG044",
+        PhoneNo: "9993148060",
         photo: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 2,
-        name: "Ananya Patel",
-        position: "Elect President",
-        batch: "2022IMT010",
-        photo: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        name: "Shashank Gour",
+        position: "President (Elect)",
+        Batch: "2023IMG047",
+        PhoneNo: "9303332369",
+        photo: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 3,
-        name: "Varun Nair",
+        name: "Krish Kedia",
         position: "Secretary",
-        batch: "2022BCS045",
+        Batch: "2023IMT043",
+        PhoneNo: "9647736900",
         photo: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 4,
-        name: "Ishita Gupta",
-        position: "Elect Secretary",
-        batch: "2022BCS030",
-        photo: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        name: "Kumawat Rohit Suhas",
+        position: "Secretary (Elect)",
+        Batch: "2023IMT045",
+        PhoneNo: "9130660628",
+        photo: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
 ];
 
@@ -42,77 +48,94 @@ export const committeeMembers: Member[] = [
     // Cultural Committee
     {
         id: 5,
-        name: "Arjun Mehta",
+        name: "Rhythm Singh",
         position: "Secretary",
-        batch: "2022IPG015",
+        Batch: "2023IMT063",
         committee: "Cultural",
+        PhoneNo: "9529797872",
         photo: "https://images.pexels.com/photos/769745/pexels-photo-769745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 6,
-        name: "Neha Singh",
+        name: "G. Yashwant",
         position: "Joint Secretary",
-        batch: "2023BCS028",
+        Batch: "2023BCS022",
         committee: "Cultural",
+        PhoneNo: "7997882456",
         photo: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 7,
-        name: "Rohit Kapoor",
+        name: "Belana Biswajeet Patro",
         position: "Joint Secretary",
-        batch: "2023BCS042",
+        Batch: "2023BEE011",
         committee: "Cultural",
+        PhoneNo: "6300573973",
+        photo: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    },
+    {
+        id: 17,
+        name: "Sneha Rathod",
+        position: "Joint Secretary",
+        Batch: "2023IMT079",
+        committee: "Cultural",
+        PhoneNo: "8688099353",
         photo: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
 
     // Technical Committee
     {
         id: 8,
-        name: "Priya Desai",
+        name: "Mradul Tiwari",
         position: "Secretary",
-        batch: "2022BCS035",
+        Batch: "2023IMG034",
         committee: "Technical",
+        PhoneNo: "8881132265",
         photo: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 9,
-        name: "Aditya Verma",
+        name: "Anisha Khairnar",
         position: "Joint Secretary",
-        batch: "2023IMT008",
+        Batch: "2023IMT012",
         committee: "Technical",
+        PhoneNo: "7387797094",
         photo: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 10,
-        name: "Shweta Kumar",
+        name: "Ansh Saxena",
         position: "Joint Secretary",
-        batch: "2023IMT040",
+        Batch: "2023BMS001",
         committee: "Technical",
+        PhoneNo: "9913188186",
         photo: "https://images.pexels.com/photos/3762802/pexels-photo-3762802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
 
     // Welfare Committee
     {
         id: 11,
-        name: "Karan Malhotra",
+        name: "Yash Mahesh Wani",
         position: "Secretary",
-        batch: "2022BCS022",
+        Batch: "2023IMT087",
         committee: "Welfare",
+        PhoneNo: "9850681144",
         photo: "https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 12,
-        name: "Sangeeta Reddy",
+        name: "Jaipreeth Tiruvaipati",
         position: "Joint Secretary",
-        batch: "2023BCS033",
+        Batch: "2023BMS029",
         committee: "Welfare",
+        PhoneNo: "9652131725",
         photo: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 13,
-        name: "Vikram Singh",
+        name: "Khoshang Ajaykumar Kashyap",
         position: "Joint Secretary",
-        batch: "2023IMT050",
+        Batch: "2023IMT042",
         committee: "Welfare",
         photo: "https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
@@ -120,26 +143,29 @@ export const committeeMembers: Member[] = [
     // Sports Committee
     {
         id: 14,
-        name: "Ravi Prakash",
+        name: "Narain Varma",
         position: "Secretary",
-        batch: "2022IMT032",
+        Batch: "2023IMT501",
         committee: "Sports",
+        PhoneNo: "8106289898",
         photo: "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 15,
-        name: "Meera Joshi",
+        name: "Advait Surendra Mulmule",
         position: "Joint Secretary",
-        batch: "2023BCS025",
+        Batch: "2023IMT006",
+        PhoneNo: "7620672917",
         committee: "Sports",
         photo: "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
     {
         id: 16,
-        name: "Aryan Shah",
+        name: "P.Veditha Keerti Rani",
         position: "Joint Secretary",
-        batch: "2023BCS012",
+        Batch: "2024IMG030",
         committee: "Sports",
+        PhoneNo: "7893455768",
         photo: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     },
 ];
