@@ -40,7 +40,7 @@ export const overallMembers: Member[] = [
         position: "Secretary (Elect)",
         Batch: "2023IMT045",
         PhoneNo: "9130660628",
-        photo: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Overall/rokum.jpeg",
     },
 ];
 
@@ -100,7 +100,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023IMT012",
         committee: "Technical",
         PhoneNo: "7387797094",
-        photo: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Tech/Tech_Anuu.png",
     },
     {
         id: 10,

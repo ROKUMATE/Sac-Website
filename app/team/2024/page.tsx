@@ -65,16 +65,6 @@ const TeamPage2024 = () => {
                                 Overall
                             </TabsTrigger>
                             <TabsTrigger
-                                value="cultural"
-                                className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
-                                    activeTab === "cultural"
-                                        ? "bg-[#0B2F5C] text-white"
-                                        : ""
-                                )}>
-                                Cultural
-                            </TabsTrigger>
-                            <TabsTrigger
                                 value="technical"
                                 className={cn(
                                     "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
@@ -83,6 +73,16 @@ const TeamPage2024 = () => {
                                         : ""
                                 )}>
                                 Technical
+                            </TabsTrigger>
+                            <TabsTrigger
+                                value="cultural"
+                                className={cn(
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
+                                    activeTab === "cultural"
+                                        ? "bg-[#0B2F5C] text-white"
+                                        : ""
+                                )}>
+                                Cultural
                             </TabsTrigger>
                             <TabsTrigger
                                 value="welfare"
@@ -113,7 +113,7 @@ const TeamPage2024 = () => {
                                 <div
                                     key={member.id}
                                     className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative h-64">
+                                    <div className="relative h-80 lg:h-72">
                                         <Image
                                             src={member.photo}
                                             alt={member.name}
@@ -152,7 +152,7 @@ const TeamPage2024 = () => {
                                 <div
                                     key={member.id}
                                     className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative h-64">
+                                    <div className="relative h-80 lg:h-72">
                                         <Image
                                             src={member.photo}
                                             alt={member.name}
@@ -191,7 +191,7 @@ const TeamPage2024 = () => {
                                 <div
                                     key={member.id}
                                     className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative h-64">
+                                    <div className="relative h-80 lg:h-72">
                                         <Image
                                             src={member.photo}
                                             alt={member.name}
@@ -230,7 +230,7 @@ const TeamPage2024 = () => {
                                 <div
                                     key={member.id}
                                     className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative h-64">
+                                    <div className="relative h-80 lg:h-72">
                                         <Image
                                             src={member.photo}
                                             alt={member.name}
@@ -269,7 +269,7 @@ const TeamPage2024 = () => {
                                 <div
                                     key={member.id}
                                     className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative h-64">
+                                    <div className="relative h-80 lg:h-72">
                                         <Image
                                             src={member.photo}
                                             alt={member.name}
