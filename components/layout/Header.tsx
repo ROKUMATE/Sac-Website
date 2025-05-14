@@ -102,7 +102,7 @@ const Header = () => {
                             {/* Logo */}
                             <Link
                                 href="/"
-                                className="text-xl font-bold text-blue-900 dark:text-white">
+                                className="text-xl font-bold  text-white">
                                 IIITM SAC
                             </Link>
                         </div>

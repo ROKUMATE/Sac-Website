@@ -32,7 +32,7 @@ export const overallMembers: Member[] = [
         position: "Secretary",
         Batch: "2023IMT043",
         PhoneNo: "9647736900",
-        photo: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Overall/kedia.png",
     },
     {
         id: 4,
@@ -120,7 +120,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023IMT087",
         committee: "Welfare",
         PhoneNo: "9850681144",
-        photo: "https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Welfare/Welfare_Yash.png",
     },
     {
         id: 12,
@@ -137,7 +137,7 @@ export const committeeMembers: Member[] = [
         position: "Joint Secretary",
         Batch: "2023IMT042",
         committee: "Welfare",
-        photo: "https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Welfare/Welfare_Khoshang.png",
     },
 
     // Sports Committee
