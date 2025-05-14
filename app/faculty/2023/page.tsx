@@ -57,11 +57,11 @@ const FacultyPage2023 = () => {
                     className="w-full"
                     onValueChange={setActiveTab}>
                     <div className="flex justify-center mb-8">
-                        <TabsList className="grid grid-cols-5 md:grid-cols-5 bg-gray-100">
+                        <TabsList className="grid grid-cols-2 md:grid-cols-5 bg-gray-100">
                             <TabsTrigger
                                 value="overall"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "overall"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -71,7 +71,7 @@ const FacultyPage2023 = () => {
                             <TabsTrigger
                                 value="cultural"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "cultural"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -81,7 +81,7 @@ const FacultyPage2023 = () => {
                             <TabsTrigger
                                 value="technical"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "technical"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -91,7 +91,7 @@ const FacultyPage2023 = () => {
                             <TabsTrigger
                                 value="welfare"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "welfare"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""
@@ -101,7 +101,7 @@ const FacultyPage2023 = () => {
                             <TabsTrigger
                                 value="sports"
                                 className={cn(
-                                    "data-[state=active]:bg-[#0B2F5C] data-[state=active]:text-white",
+                                    "data-[state=active]:bg-[#0B2F5C] ml-2 data-[state=active]:text-white",
                                     activeTab === "sports"
                                         ? "bg-[#0B2F5C] text-white"
                                         : ""

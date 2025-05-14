@@ -53,7 +53,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023IMT063",
         committee: "Cultural",
         PhoneNo: "9529797872",
-        photo: "https://images.pexels.com/photos/769745/pexels-photo-769745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Cultural/Cultural_Rhythm.jpeg",
     },
     {
         id: 6,
@@ -62,7 +62,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023BCS022",
         committee: "Cultural",
         PhoneNo: "7997882456",
-        photo: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Cultural/Cultural_Yashwant.jpeg",
     },
     {
         id: 7,
@@ -80,7 +80,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023IMT079",
         committee: "Cultural",
         PhoneNo: "8688099353",
-        photo: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Cultural/Cultural_Sneha.jpeg",
     },
 
     // Technical Committee
@@ -109,7 +109,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023BMS001",
         committee: "Technical",
         PhoneNo: "9913188186",
-        photo: "https://images.pexels.com/photos/3762802/pexels-photo-3762802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Tech/Tech_Ansh.jpeg",
     },
 
     // Welfare Committee
@@ -148,7 +148,7 @@ export const committeeMembers: Member[] = [
         Batch: "2023IMT501",
         committee: "Sports",
         PhoneNo: "8106289898",
-        photo: "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        photo: "/assets/2024-25/Student/Sports/Sports_Narain.jpeg",
     },
     {
         id: 15,
