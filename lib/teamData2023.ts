@@ -14,7 +14,7 @@ export const overallMembers: Member[] = [
         id: 1,
         name: 'Kunal Vardani',
         position: 'President',
-        Batch: '2022IMG032',
+        Batch: '2022IMG032 ',
         PhoneNo: '9929646997',
         photo: '/assets/2023-24/Student/Overall/Kunal_Sir_2.jpeg',
     },
