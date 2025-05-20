@@ -16,7 +16,7 @@ export const overallMembers: Member[] = [
         position: 'President',
         Batch: '2022IMG032',
         PhoneNo: '9929646997',
-        photo: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        photo: '/assets/2023-24/Student/Overall/Kunal_Sir_2.jpeg',
     },
     {
         id: 2,
@@ -84,6 +84,15 @@ export const committeeMembers: Member[] = [
         photo: '/assets/2023-24/Student/Technical/Tech_Harshit.jpeg',
     },
     {
+        id: 10,
+        name: 'Uajjawal Sharma',
+        position: 'Secretary',
+        Batch: '2022IMG064',
+        committee: 'Technical',
+        PhoneNo: '8769445541',
+        photo: '/assets/2023-24/Student/Technical/Uajjawal_Sir.jpg',
+    },
+    {
         id: 9,
         name: 'Rishabh Agarwal',
         position: 'Joint Secretary',
@@ -91,15 +100,6 @@ export const committeeMembers: Member[] = [
         committee: 'Technical',
         PhoneNo: '9163430474',
         photo: '/assets/2023-24/Student/Technical/Tech_Rishabh.jpeg',
-    },
-    {
-        id: 10,
-        name: 'Uajjawal Sharma',
-        position: 'Joint Secretary',
-        Batch: '2022IMG064',
-        committee: 'Technical',
-        PhoneNo: '8769445541',
-        photo: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },
 
     // Welfare Committee
@@ -139,7 +139,7 @@ export const committeeMembers: Member[] = [
         Batch: '2022IMT091',
         committee: 'Sports',
         PhoneNo: '7888519807',
-        photo: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        photo: '/assets/2023-24/Student/Sports/Sports_Purav.jpeg',
     },
     {
         id: 15,
@@ -148,7 +148,7 @@ export const committeeMembers: Member[] = [
         Batch: '2022IMG025',
         PhoneNo: '9991964475',
         committee: 'Sports',
-        photo: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        photo: '/assets/2023-24/Student/Sports/Sports_Jasleen.jpeg',
     },
     {
         id: 16,
