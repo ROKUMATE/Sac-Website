@@ -16,7 +16,7 @@ export const overallMembers: Member[] = [
         position: 'President',
         Batch: '2022IMG032 ',
         PhoneNo: '9929646997',
-        photo: '/assets/2023-24/Student/Overall/Kunal_Sir_2.jpeg',
+        photo: '/assets/2023-24/Student/Overall/Kunal_sir_2.jpeg',
     },
     {
         id: 2,
